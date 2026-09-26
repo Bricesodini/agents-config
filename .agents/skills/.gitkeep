@@ -1,5 +1,0 @@
-Skills are populated here, one folder per skill (e.g. impeccable/, improve-codebase-architecture/, …).
-
-Each skill folder contains a SKILL.md frontmatter file and optional scripts/, reference/, agents/ subfolders.
-
-This folder is empty until skills are migrated from the current ~/.agents/skills/.

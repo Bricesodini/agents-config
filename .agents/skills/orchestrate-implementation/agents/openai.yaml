@@ -1,0 +1,3 @@
+interface:
+  display_name: "Orchestrate Implementation"
+  short_description: "Process tickets serially with agents and reviews"
