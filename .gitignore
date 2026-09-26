@@ -24,5 +24,8 @@
 .cache/
 .tmp/
 
+# Harness runtime caches we don't own — another tool's memory, not ours to version
+.pi/
+
 # Node (defensive)
 node_modules/
