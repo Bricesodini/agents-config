@@ -8,6 +8,7 @@
 | A fact is missing, but the intended behavior is settled | Bounded inspection or reproduction; consult `research` for external facts. Keep it within the ticket and remaining run budget. Escalate if inconclusive. |
 | Competing business meanings, contradictory rules, or a fix changing user-visible policy | Pause for a human decision; prepare `grilling` + `domain-modeling` context. |
 | A design question needs something concrete to judge | Pause implementation; propose a focused `prototype` session for the human to evaluate. |
+| An Impeccable recommendation returned by the active ticket's worker | Gate through the design sign-off subagent (`.agents/skills/design-sign-off/SKILL.md`); use its `surface-fix` / `system-change` disposition. `surface-fix` → proceed inside the tranche. `system-change`, malformed packet, or unresolved appeal → pause. ADR-0002. |
 | Several linked decisions make the route unclear across sessions | Hand off toward `wayfinder`; never resolve its human-in-the-loop questions yourself. |
 | A significant architectural trade-off meets the ADR threshold | Present the decision and propose an ADR using `domain-modeling`. |
 | Required capability, check, access or authorization is absent | Explain the operational blocker and the smallest action that unlocks it. |

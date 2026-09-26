@@ -12,7 +12,7 @@ Matt Pocock skills are the default engineering methodology. Use existing skills 
 
 `orchestrate-implementation` extends this methodology to coordinate implementation with subagents.
 
-For UI/UX work, use Impeccable as a specialist **inside** the Matt workflow, not as a competing methodology. If a design recommendation changes scope or product behavior, return that decision to the spec or ticket before implementation.
+For UI/UX work, use Impeccable as a specialist **inside** the Matt workflow, not as a competing methodology. If a design recommendation would change scope or product behaviour, gate it through the design sign-off subagent and pause per `orchestrate-implementation`'s `decisions-and-reporting.md`. See ADR-0002.
 
 ## Subagents
 
