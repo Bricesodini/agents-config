@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Git
+*.orig
+*.rej
+.merge_*
+
+# Local overrides — never commit, but keep them out of diff noise
+*.local
+.local/
+
+# Logs / caches
+*.log
+.cache/
+.tmp/
+
+# Node (defensive)
+node_modules/
